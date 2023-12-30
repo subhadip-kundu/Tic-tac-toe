@@ -1,0 +1,16 @@
+.grid{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.turn-highlight{
+    color: antiquewhite;
+    text-align: center;padding: 40px;
+}
+.turn-highlight::first-letter{
+    font-size: 2.5rem;
+    color:red;
+}
